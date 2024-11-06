@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rasim | Front-End Web Developer</title>
+    <title>Rasim | Front-End Web Developer and IT Support Engineer</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-
         body {
             font-family: 'Poppins', sans-serif;
             line-height: 1.8;
             margin: 0;
-            padding: 0;
+            padding: 0; 
             background-color: #f0f2f5;
             color: #333;
         }
 
-        /* Add the cover image as the background */
         header {
             background: url('Cover pic.WEBP') no-repeat center center/cover;
             color: white;
@@ -27,7 +25,6 @@
             position: relative;
         }
 
-        /* Add shadow effect for the header content */
         header h1, header h2 {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
@@ -67,7 +64,6 @@
             color: #FFAB40;
         }
 
-        /* Featured image styling */
         .featured-image {
             width: 30%;
             height: auto;
@@ -97,22 +93,6 @@
             color: #555;
         }
 
-        .cta-btn {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            background-color: #FFAB40;
-            color: white;
-            border: none;
-            border-radius: 30px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .cta-btn:hover {
-            background-color: #ff8c00;
-        }
-
         section {
             padding: 3rem 2rem;
         }
@@ -127,25 +107,31 @@
         }
 
         #about img {
-            max-width: 150px;
+            width: 220px;
+            height: auto;
             border-radius: 50%;
+            border: 5px solid #FFAB40;
             margin: 1rem 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transition: transform 0.4s ease;
         }
 
-        #skills ul {
+        #about img:hover {
+            transform: scale(1.1);
+        }
+
+        #skills ul, #expertise ul {
             list-style-type: none;
             padding: 0;
             text-align: center;
         }
 
-        #skills ul li {
+        #skills ul li, #expertise ul li {
             margin: 0.75rem 0;
             font-size: 1.2rem;
             color: #203a43;
         }
 
-        /* Contact Section with icons */
         #contact {
             text-align: center;
             background-color: #203a43;
@@ -184,67 +170,60 @@
 </head>
 <body>
 
-    <!-- Header with cover image -->
     <header>
         <div class="header-content">
             <h1>Rasim</h1>
-            <h2>Front-End Web Developer</h2>
+            <h2>Front-End Web Developer and IT Support Engineer</h2>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <!-- Featured Image -->
-        <img src="Best Profile pic.jpg" alt="Rasim's Professional Photo" class="featured-image">
+        <img src="CV PIC 2.PNG" alt="Rasim's Professional Photo" class="featured-image">
     </header>
 
-    <!-- Introduction Section -->
     <section id="home">
         <div class="intro-content">
             <h3>Welcome to My Portfolio</h3>
-            <p>As a passionate Front-End Web Developer, I specialize in creating responsive, visually appealing, and user-friendly websites using HTML and CSS. With a keen eye for design and a focus on delivering exceptional user experiences, I bring concepts to life on the web while ensuring functionality across devices. Whether it's coding clean, efficient websites or collaborating with teams to enhance the user interface, I am committed to developing engaging and accessible digital solutions.</p>
-            <a href="#projects" class="cta-btn">View My Work</a>
+            <p>IT and Data Analytics with experience in technical support, content analysis, and small business support. Skilled in troubleshooting, web development, and data analysis. Fluent in multiple languages for effective communication.</p>
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
-            <img src="IMG_1490.JPG" alt="Rasim Casual Photo">
+            <img src="Best Profile pic.jpg" alt="Rasim's Casual Photo">
             <p>With a Bachelor's degree in Computer Science and professional experience as a data analyst and content reviewer at Accenture, I have developed strong analytical and technical skills. My expertise in front-end development, using HTML and CSS, allows me to design and build responsive, user-friendly websites. In addition to my technical background, I also bring a unique perspective from my certification in personal training, blending analytical thinking with creativity and wellness.</p>
         </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Front-End Web Development: HTML, CSS, JavaScript</li>
-            <li>Adobe Creative Suite: Illustrator, Photoshop, InDesign</li>
-            <li>Web Design: Responsive Design, UX/UI</li>
-            <li>Branding, Logo Design</li>
+            <li>Proficient in Photoshop, HTML, CSS, and Microsoft Office</li>
+            <li>Skilled in graphic design software and familiar with basic JavaScript for web development</li>
+            <li>Fluent in Azeri, Turkish, Russian, and English</li>
         </ul>
-          <!-- Languages Section -->
-          <h3>Languages</h3>
-          <ul>
-              <li>Turkish: Fluent</li>
-              <li>Russian: Fluent</li>
-              <li>English: Fluent</li>
-              <li>Azerbaijani: Fluent</li>
-          </ul>
     </section>
 
-    <!-- Contact Section with Icons -->
+    <section id="expertise">
+        <h2>Expertise</h2>
+        <ul>
+            <li>Management Skills</li>
+            <li>Creativity</li>
+            <li>Negotiation</li>
+            <li>Critical Thinking</li>
+            <li>Leadership</li>
+        </ul>
+    </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-
         <div class="contact-info">
             <img src="telephone.png" alt="Phone Icon">
             <p><strong>Phone:</strong> +14372565734</p>
@@ -254,14 +233,17 @@
             <p><strong>Email:</strong> <a href="mailto:rasimmammadli95@gmail.com" style="color: #FFAB40; text-decoration: none;">rasimmammadli95@gmail.com</a></p>
         </div>
         <div class="contact-info">
-            <img src="location.png" alt="Location Icon">
-            <p><strong>Address:</strong> 369 Shuter St, Toronto, ON, M5A 1X2</p>
+            <img src="location icon 3.png" alt="Location Icon">
+            <p><strong>Address:</strong> Toronto, ON, M5A 1X2</p>
+        </div>
+        <div class="contact-info">
+            <img src="linkedin icon 2.png" alt="LinkedIn Icon">
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rasim-mammadli-7a314121b/" style="color: #FFAB40; text-decoration: none;">linkedin.com/in/rasim-mammadli-7a314121b/</a></p>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>© 2024 Rasim Mammadli - Front-End Web Developer</p>
+        <p>© 2024 Rasim Mammadli - Front-End Web Developer and IT Support Engineer</p>
     </footer>
 
 </body>
